@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background-image:url(./assets/IMG_20221106_072145573_BURST000_COVER_COMP.jpg);
+
+}
+h1,p{
+    margin: 1em auto;
+    text-align: center;
+}
+form{
+width:60vw;
+max-width:500px;
+min-width: 300px;
+margin: 0 auto;
+background-color: lightgreen;
+
+padding: 40px;
+}
+.form-class{
+    width: 100%;
+    
+}
+label{
+    display: block;
+    margin: 0.5em 0em;
+}
+input[type="checkbox"]{
+ vertical-align: middle;
+ margin:0px 0.5em;
+}
+input[type="radio"]{
+    vertical-align:middle;
+    margin-right: 7px;
+}
+input,textarea,select{
+width:100%;
+min-height: 2em;
+padding: 0px;
+border-width: 0px;
+}
+.inline{
+    width: unset;
+}
+/* .radio1{
+  height: 1px;
+} */
+.age1,.o2{
+    padding-bottom: 20px;
+}
+.o1,.o3{
+    padding-top: 10px;
+}
+hr{
+    margin: 0px;
+}
+
+input[value="Submit"]{
+    margin-top: 10px;
+    background-color:wheat;
+}
